@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="shortcut icon" href="../static/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- <style>
+        
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto&display=swap');
+        
+        body{
+            color:white ;
+            /* background-color: rgb(80, 255, 188); */
+            font-size: medium;
+            font-family: 'Quicksand', sans-serif;
+            text-align: center;
+            background-image: url("../static/bg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        nav{
+            background-color:#07225c ;
+        color:white;
+        height: 100px;
+        position: relative;
+        }
+        nav ul{
+        background-color:#07225c ;
+        color:white;
+        border-style: solid;
+        border-color:#07225c;
+        border-width: 2px;
+        padding: 10px;
+        border-radius: 10px;
+        align-items: center;
+        padding-top: 40px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+        }
+        nav ul li a{
+        text-decoration: none;
+        color: white;
+        }
+        nav > .logo{
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            width: 180px;
+        }
+        .button{
+                background-color:#07225c;
+                padding: 15px;
+                
+                font-family: 'Quicksand',sans-serif;
+            }
+            .button > a{
+                color: white;
+                text-decoration: none;
+            }
+            .button:hover {
+                background-color:aqua;
+                
+            }
+            .button:hover > a{
+                color: #07225c;
+            }
+    </style> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="/static/logo.png" alt="" width="40%"></div>
+            <ul>
+                <li><a href="/">About me</a></li>
+                <li><a href="/how_to_play">How to play chess</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/regi">Registration</a></li>
+                <li><a href="/quiz">Quiz</a></li>
+                <li><a href="/mquiz">Math Quiz</a></li>
+                <li><a href="/mquiz">Mountain Lion</a></li>
+                <li><a href = "/feed">Feedback</a></li>
+                <li><a href="/calc">Calculator</a></li>
+                <li><a href = "/logout">Logout</a></li>
+            
+            </ul>
+        </nav>
+    </header>
+    <form>
+    <h1>Welcome {{username}},You have logged in succsessfully</h1>
+        <h1>Samarth's Fun Math Quiz</h1>
+        <h3>Please reload the page a few times</h3>
+        <p>Click on your age range.</p>
+        <p>You should be 4 + to answer this quiz</p>
+        <p>You have to be 14 or less to answer this</p>
+        <p>The quiz will have 3-4 options answer carefully!</p>
+        <label for="button1">
+            
+            <button type="submit" id="button1" name="button1" class="button"><a href="/q1"> Age 4-6</a></button>      
+        </label>
+        <label for = "button2">
+            <button type="submit" id="button1" name="button1" class="button"><a href="/miq1"> Age 7-9</a></button> 
+        </label>
+        <label for = "button3">
+            <button type="submit" id="button1" name="button1" class="button"><a href="/hiq1">Age 10-14</a></button>     
+        </label>
+        
+  </form>  
+</body>
+  
+</html>
+
+  

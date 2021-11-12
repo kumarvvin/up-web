@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz 1</title>
+        <link rel="shortcut icon" href="../static/logo.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../static/style.css">
+        <!-- <style>
+            body{
+                color:rgb(83, 43, 226) ;
+                background-color: rgb(80, 255, 188);
+                font-size: medium;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+            nav ul{
+            background-color:rgb(83, 43, 226) ;
+            color:white;
+            border-style: solid;
+            border-color:rgb(83, 43, 226);
+            border-width: 2px;
+            padding: 10px;
+            border-radius: 10px;
+            }
+            nav ul li{
+                list-style-type: none;
+                display: inline;
+                margin-right: 10px;
+                margin-left: 10px;
+                color: white;
+            }
+            nav ul li a{
+            text-decoration: none;
+            color: white;
+            }
+        .button > a{
+        text-decoration: none;
+        color: rgb(80, 255, 188);
+        }
+        .button{
+        background-color: rgb(83,43,226);
+        color: rgb(80, 255, 188);
+        padding: 10px;
+        }
+        </style> -->
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo"><img src="/static/logo.png" alt="" width="40%"></div>
+                <ul>
+                    <li><a href="/">About me</a></li>
+                    <li><a href="/how_to_play">How to play chess</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/regi">Registration</a></li>
+                    <li><a href="/quiz">Quiz</a></li>
+                    <li><a href="/mquiz">Math Quiz</a></li>
+                    <li><a href="/mquiz">Mountain Lion</a></li>
+                    <li><a href = "/feed">Feedback</a></li>
+                    <li><a href="/calc">Calculator</a></li>
+                    <li><a href = "/logout">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <form action="hiq5" method="POST">
+            
+            <h1>4th grade to 8th grade questions.</h1>
+            <h2>4. What is the formula of finding a circles area?</h2>
+            <h3>Score: {{score2}}</h3>
+            <label for = "8">
+                2r
+                <input type="radio" id="8" name ="callTime" value="1"/>
+                <br>
+                <br>
+            </label>
+            <label>
+                2r * 3x + 3d
+                <input type="radio" id="8" name ="callTime" value="2"/>
+                <br>
+                <br>
+            </label>
+            <label>
+                3d squared + 2r cubed / 9
+                <input type="radio" id="8" name ="callTime" value="3"/>
+                <br>
+                <br>
+            </label>
+            <label>
+                pi r squared
+                <input type="radio" id="8" name ="callTime" value="4"/>
+            </label>
+            <br>
+            <br>
+            <input type="hidden" id="8" name="ca" value="4">
+            <button type="submit" id="button2" name="button2" class="button">Next</button>  
+        </form>
+    </body>
+</html>

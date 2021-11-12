@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Registration page</title>
+     <link rel="shortcut icon" href="../static/logo.ico" type="image/x-icon">
+     <link rel="stylesheet" href="../static/style.css">
+     <!-- <style>
+        body{
+            color:rgb(83, 43, 226) ;
+            background-color: rgb(80, 255, 188);
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        nav{
+            background-color:#07225c ;
+        color:white;
+        height: 100px;
+        position: relative;
+        }
+        nav ul{
+        background-color:#07225c ;
+        color:white;
+        border-style: solid;
+        border-color:#07225c;
+        border-width: 2px;
+        padding: 10px;
+        border-radius: 10px;
+        align-items: center;
+        padding-top: 40px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+        }
+        nav ul li a{
+        text-decoration: none;
+        color: white;
+        }
+        nav > .logo{
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            width: 180px;
+        }
+        
+    </style> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="/static/logo.png" alt="" width="40%"></div>
+            <ul>
+                <li><a href="/">About me</a></li>
+                <li><a href="/how_to_play">How to play chess</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/regi">Registration</a></li>
+                <li><a href="/quiz">Quiz</a></li>
+                <li><a href="/mquiz">Math Quiz</a></li>
+                <li><a href="/mquiz">Mountain Lion</a></li>
+                <li><a href = "/feed">Feedback</a></li>
+                <li><a href="/calc">Calculator</a></li>
+                <li><a href = "/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    
+        <h2>Simple registration page.</h2>
+        <p>Fill in the details below.</p>
+    
+        <form action="/verify_register" method="POST">
+            <div class="container">
+            <div class="box1">
+        <label for = "firstname">First Name:
+        <input type = "text" id = "firstname" name = "firstname">
+        </label>
+        <br> <br>
+        </div>
+        <div class="box1">
+        <label for = "lastname">Last Name:
+        <input type = "text" id = "lastname" name = "lastname">
+        </label>
+    </div>
+    <div class="box1">
+        <br> <br>
+        <label for = "phonenumber" >Phone Number:
+          <input type="tel" id = "phonenumber" name = "phonenumber">
+          <br> <br> 
+        </label>
+    </div>
+    <div class="box1">
+        <label for = "username">
+            Username:<input type="text" id="username" name="username">
+        </label>
+        <br> <br>
+    </div>
+    <div class="box1">
+        <label for = "password">Password:
+            <input type="password" id = "password" name = "password">
+        </label>
+    </div>
+    <div class="box1">
+        <br> <br>
+        <label for = 'email'>Email Adress:
+            <input type="email" id="email" name="email">
+        </label>
+    </div>
+    <div class="box1">
+        <br> <br>
+        <p>Pick Your Gender.</p>
+        <label for = "Male">
+            Male
+            <input type = "radio" id = "Male" name = "gender" checked>
+        </label>
+    </div>
+    <div class="box1">
+        <label for = "Female">
+            Female
+            <input type = "radio" id = "Female" name = "gender">
+        </label>
+    </div>
+    <div class="box1">
+        <br> <br>
+        <label for = "feedback">Write some feedback:
+            <textarea id = "feedback" name = "feedback" rows="10" cols="30"></textarea>
+        </label>
+    </div>
+    <div class="box1">
+        <br> <br>
+     <a href="./registation_successful.html"><button type="submit" class="button">Submit</button></a>  
+    </div>
+    </form>
+    </body>    
+</html>
+

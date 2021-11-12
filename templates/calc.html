@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz 1</title>
+        <link rel="shortcut icon" href="../static/logo.ico" type="image/x-icon">
+        <!-- <style>
+            body{
+                color:rgb(83, 43, 226) ;
+                background-color: rgb(80, 255, 188);
+                font-size: medium;
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                text-align: center;
+            }
+            nav ul{
+            background-color:rgb(83, 43, 226) ;
+            color:white;
+            border-style: solid;
+            border-color:rgb(83, 43, 226);
+            border-width: 2px;
+            padding: 10px;
+            border-radius: 10px;
+            }
+            nav ul li{
+                list-style-type: none;
+                display: inline;
+                margin-right: 10px;
+                margin-left: 10px;
+                color: white;
+            }
+            nav ul li a{
+            text-decoration: none;
+            color: white;
+            }
+        .button > a{
+        text-decoration: none;
+        color: rgb(80, 255, 188);
+        }
+        .button{
+        background-color: rgb(83,43,226);
+        color: rgb(80, 255, 188);
+        padding: 10px;
+        }
+        nav > .logo{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 180px;
+    }
+    nav > .logo{
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 180px;
+    }
+        </style> -->
+        <link rel="stylesheet" href="../static/style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo"><img src="/static/logo.png" alt="" width="40%"></div>
+                <ul>
+                    <li><a href="/">About me</a></li>
+                    <li><a href="/how_to_play">How to play chess</a></li>
+                    <li><a href="/login">Login</a></li>
+                    <li><a href="/regi">Registration</a></li>
+                    <li><a href="/quiz">Quiz</a></li>
+                    <li><a href="/mquiz">Math Quiz</a></li>
+                    <li><a href="/mquiz">Mountain Lion</a></li>
+                    <li><a href = "/feed">Feedback</a></li>
+                    <li><a href="/calc">Calculator</a></li>
+                    <li><a href = "/logout">Logout</a></li>
+                </ul>
+            </nav>
+        </header>
+        <br><br><br><br><br><br>
+        <div class="Calc">
+            
+       <h2>Calculator</h2>
+       <form action="/verify_calc">
+        <label for="input1">
+            First Input:<input type="text" id="input1" name = "input1">
+        </label>
+        <br> <br>
+        <label for="input2">
+            Second Input:<input type="text" id="ipnut2" id="input3" name="input2">
+        </label>
+        <br> <br>
+        <h3>Select the Operator</h3>
+        <select name="operator" id="operator">
+            <option value="addition">Addition</option>
+            <option value="subtraction">Subtraction</option>
+            <option value="multiplication">Multiplication</option>
+            <option value="division">Division</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+       </form>
+    
+</div>
+       
+    </body>
+    </html>
+            

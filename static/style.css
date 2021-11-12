@@ -1,0 +1,94 @@
+ 
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@600&family=Roboto&display=swap');
+        body{
+            color:rgb(83, 43, 226) ;
+            /* background-color: rgb(80, 255, 188); */
+            font-size: medium;
+            font-family: 'Quicksand', sans-serif;
+            text-align: center;
+             background-image: linear-gradient(to right, #2980b9, #6dd5fa,#ffffff);/*url(../static/best-photo-1.jpg); */
+            /* background-repeat: no-repeat; */
+            background-size: cover;
+        }
+        nav{
+            background-color:#07225c ;
+        color:white;
+        height: 100px;
+        position: relative;
+        }
+        nav ul{
+        background-color:#07225c ;
+        color:white;
+        border-style: solid;
+        border-color:#07225c;
+        border-width: 2px;
+        padding: 10px;
+        border-radius: 10px;
+        align-items: center;
+        padding-top: 40px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+        }
+        nav ul li a{
+        text-decoration: none;
+        color: white;
+        }
+        nav > .logo{
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            width: 180px;
+        }
+        .button{
+                background-color:#07225c;
+                padding: 15px;
+                
+                font-family: 'Quicksand',sans-serif;
+            }
+            .button > a{
+                color: white;
+                text-decoration: none;
+            }
+            .button:hover {
+                background-color:aqua;
+                color: #07225c;
+            }
+            .button:hover > a{
+                color: #07225c;
+            }
+            .Calc{
+                border-style: dashed;
+                border-color: white;
+                border-width: 5px;
+                margin-left: 440px;
+                margin-right: 400px;
+                padding: 15px;
+                background-color: #07225c;
+                color: white;
+            }
+            .Calc  button{
+                background-color:cyan;
+                padding: 15px;
+                border: 1px solid white;
+                font-family: 'Quicksand',sans-serif;
+                border-radius: 15px;
+            }
+            .Calc button:hover{
+                background-color: #07225c;
+                border: 1px solid white;
+                color: white;
+                
+            }
+            input,select{
+                font-family: 'Quicksand', sans-serif;
+                background-color: #6ee;
+                
+                height: 20px;
+            }
+            

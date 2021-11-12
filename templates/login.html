@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="shortcut icon" href="../static/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- <style>
+        body{
+            color:rgb(83, 43, 226) ;
+            background-color: rgb(80, 255, 188);
+            font-size: medium;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+        }
+        nav{
+            background-color:#07225c ;
+        color:white;
+        height: 100px;
+        position: relative;
+        }
+        nav ul{
+        background-color:#07225c ;
+        color:white;
+        border-style: solid;
+        border-color:#07225c;
+        border-width: 2px;
+        padding: 10px;
+        border-radius: 10px;
+        align-items: center;
+        padding-top: 40px;
+        }
+        nav ul li{
+            list-style-type: none;
+            display: inline;
+            margin-right: 10px;
+            margin-left: 10px;
+            color: white;
+        }
+        nav ul li a{
+        text-decoration: none;
+        color: white;
+        }
+        nav > .logo{
+            position: absolute;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            width: 180px;
+        }
+        
+    </style> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><img src="/static/logo.png" alt="" width="40%"></div>
+            <ul>
+                <li><a href="/">About me</a></li>
+                <li><a href="/how_to_play">How to play chess</a></li>
+                <li><a href="/login">Login</a></li>
+                <li><a href="/regi">Registration</a></li>
+                <li><a href="/quiz">Quiz</a></li>
+                <li><a href="/mquiz">Math Quiz</a></li>
+                <li><a href="/mquiz">Mountain Lion</a></li>
+                <li><a href = "/feed">Feedback</a></li>
+                <li><a href="/calc">Calculator</a></li>
+                <li><a href = "/logout">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="log1">
+    <img src="/static/user2.png" height="300" cols="150">
+    <h3>Login Page</h3>
+    <h4>Instructions:<br> Type username and password</h4>
+    <form action="/user_validation" method="POST">
+<label for="username">Username:
+    <input type="text" id="username" name="username">
+</label>
+<br> <br>
+<label for="password">Password:
+<input type="password" id="password" name="password">
+</label>
+<label for = "selector">
+    <p>Select your age</p>
+    <select>
+    <option>4-7</option>
+    <option>8-13</option>
+    <option>14-18</option>
+    <option>19-45</option>
+    <option>46+</option>
+    </select>
+</label>
+<br> <br>
+<a href="./login_sucsessful.html"><button type ="submit" class="button">Submit</button></a>
+<button type="reset" class = "button">Reset</button>
+    </form>
+    </div>
+</body>    
+</html>
+
+  
